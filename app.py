@@ -9,3 +9,9 @@ def hello_world():
 @app.route("/about")
 def about_me():
     return render_template("about_me.html")
+    
+
+@app.route("/hobbies")
+def hobbies():
+    return render_template("hobbies.html")
+    
